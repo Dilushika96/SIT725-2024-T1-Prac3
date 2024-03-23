@@ -1,0 +1,52 @@
+
+body{
+    background-color: #f6adce
+
+}
+
+.main-body
+{
+color: rgb(74, 51, 43);
+}
+
+
+
+.text {
+    display: inline-block;
+}
+.navbar-size {
+    width: 95%;
+    margin: 0 auto;
+}
+
+.user-image-size {
+    height: 56px;
+    margin: 4px 0;
+
+}
+
+.materialboxed-image {
+    margin: 0 auto;
+    height: 400px;
+}
+
+#clickMeButton {
+    background-color: #ca0e5c;
+    margin-top: 5px;
+    align-content: center;
+
+}
+
+.contanair{
+    text-align: center;
+    color:crimson;
+}
+
+#heading
+{
+    text-align: center;
+}
+
+p{
+    text-align: center;
+}
