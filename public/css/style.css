@@ -1,52 +1,57 @@
 
-body{
-    background-color: #f6adce
+body {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    line-height: 50px;
+    background-color: #f8b5e4;
 
 }
-
-.main-body
-{
-color: rgb(74, 51, 43);
-}
-
-
 
 .text {
     display: inline-block;
-}
-.navbar-size {
-    width: 95%;
-    margin: 0 auto;
+    color: black;
 }
 
-.user-image-size {
-    height: 56px;
+.user-image-size { 
+    height: 45px; 
     margin: 4px 0;
+     }
 
+.nav {
+    background-color: #b3e5fc;
 }
 
-.materialboxed-image {
-    margin: 0 auto;
-    height: 400px;
-}
+ .nav-wrapper {
+    background-color: #df3791;
+   
+} 
+
+
+ .link {
+    font-size: 20px;
+} 
+ 
+#demo{
+    height: 300px;
+    width: 370px;
+    margin: 5px 20px;
+} 
 
 #clickMeButton {
-    background-color: #ca0e5c;
-    margin-top: 5px;
-    align-content: center;
-
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
-.contanair{
-    text-align: center;
-    color:crimson;
-}
 
-#heading
-{
-    text-align: center;
-}
+.modal-fixed-footer {
+    background-color: transparent;
+    box-shadow: none;
+} 
 
-p{
+ .modal-content {
+    box-shadow: inset;
+} 
+
+.container{
     text-align: center;
 }

@@ -14,7 +14,8 @@
 
     <!-- Compiled and minified CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <!-- Compiled and minified CSS -->
     <link rel="stylesheet" href="css/style.css">
 
@@ -27,7 +28,7 @@
 
             <a href="#" class="brand-logo"><img class="user-image-size" src="images/user.png" /></a>
             <ul id="nav-mobile" class="right hide-on-med-and-down">
-                <li><a target="_blank" href="https://www.linkedin.com/in/dilushika-savindi/">Linkdin</a></li>
+                <li><a class='link' target="_blank" href="https://www.linkedin.com/in/dilushika-savindi/">Linkdin</a></li>
             </ul>
         </div>
 
@@ -38,7 +39,7 @@
         <div class="container">
             <div class="row">
                 <div class="col s12 center- align">
-                    <h1 id="heading">Welcome to SIT 725</h1>
+                    <h1 id="heading">Welcome to SIT725-20242-prac3</h1>
                     <p class="flow- text center- align">This is a demo application that tries to use a few components
                         from materialize
                         and through this practical we try to
@@ -50,76 +51,24 @@
 
 
 
-        <div class="contanair">
-            <h2> SIT725-20242-prac3</h2>
-            <div class="col s12 center-align">
-                <!-- image -->
-                <img src="images/livedemo.jpg" alt="live demo">
-            </div>
-            <div class="col s12 center-align">
-                <!-- Button -->
-                <button id="clickMeButton">Click Me</button>
-            </div>
-        </div>
-
-
-
-
-        <div class="row">
-            <div class="col s4 center-align">
-                <div class="card medium">
-                    <div class="card-image waves-effect waves-block waves-light">
-                        <img class="activator" src="images/kitten.jpg">
-                    </div>
-                    <div class="card-content">
-                        <span class="card-title activator grey-text text-darken-4">Kitten<i
-                                class="material-icons right">more_vert</i></span>
-                        <p><a href="#">About this kitten</a></p>
-                    </div>
-                    <div class="card-reveal">
-                        <span class="card-title grey-text text-darken-4">Kitten<i
-                                class="material-icons right">close</i></span>
-                        <p class="card-text"> Hello There! I just wanted to say HI to you guys. See ya!</p>
-                    </div>
+        <div class="container">
+    
+            <div class="row">
+                <div class="col s12 center-align">
+                    <!-- image -->
+                    <img id="demo" src="images/livedemo.jpg" alt="live demo">
                 </div>
-            </div>
-
-            <div class="col s4 center-align">
-                <div class="card medium">
-                    <div class="card-image waves-effect waves-block waves-light">
-                        <img class="activator" src="images/kitten2.jpg">
-                    </div>
-                    <div class="card-content">
-                        <span class="card-title activator grey-text text-darken-4">Kitten<i
-                                class="material-icons right">more_vert</i></span>
-                        <p><a href="#">About this kitten</a></p>
-                    </div>
-                    <div class="card-reveal">
-                        <span class="card-title grey-text text-darken-4">Kitten<i
-                                class="material-icons right">close</i></span>
-                        <p class="card-text"> Hello There! I just wanted to say HI to you guys. See ya!</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col s4 center-align">
-                <div class="card medium">
-                    <div class="card-image waves-effect waves-block waves-light">
-                        <img class="activator" src="images/kitten3.jpg">
-                    </div>
-                    <div class="card-content">
-                        <span class="card-title activator grey-text text-darken-4">Kitten<i
-                                class="material-icons right">more_vert</i></span>
-                        <p><a href="#">About this kitten</a></p>
-                    </div>
-                    <div class="card-reveal">
-                        <span class="card-title grey-text text-darken-4">Kitten<i
-                                class="material-icons right">close</i></span>
-                        <p class="card-text"> Hello There! I just wanted to say HI to you guys. See ya!</p>
+                <div class="col s12 center-align">
+                    <!-- Button -->
+                    <a id="clickMeButton" class="blue accent waves-effect waves-green btn" data-toggle="modal"
+                    data-target="#modal1">Click Me</a>
+                    <div id="card-section">
                     </div>
                 </div>
             </div>
         </div>
+
+
 
         <!-- Modal Structure -->
         <div id="modal1" class="modal modal-fixed-footer">
@@ -158,9 +107,12 @@
 
 
     </main>
-
     <!-- Compiled and minified JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <script src="js/script.js"></script>
 </body>
 
